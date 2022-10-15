@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="user">
+          <span>User</span>
+          <span>&nbsp;</span>
+        </div>
+        <div class="level">
+          <span>Level</span>
+          <span>1</span>
+        </div>
+        <div class="points">
+          <span>points</span>
+          <span>0</span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="wrapper">
+          <p class="title">
+            Guess a number between <span class="start">&nbsp;</span> and
+            <span class="end">&nbsp;</span>
+          </p>
+
+          <form>
+            <input type="text" id="guess-input" name="guess-input" autocomplete="off" />
+            <button type="submit">Guess</button>
+          </form>
+
+          <p class="feedback">&nbsp;</p>
+
+          <p class="number-of-trials">Number of Trials: <span>0</span></p>
+
+          <p class="guessed-numbers">Previous Guesses: <span></span></p>
+        </div>
+      </div>
+      <script src="/js/main.js"></script>
+    </main>
+  </body>
+</html>
