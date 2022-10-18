@@ -1,6 +1,6 @@
 # Guessing-Game
 
-Guessing game built with HTML CSS and JS for Zuri Full Stack Task
+Guessing game built with JS for Zuri Full Stack Task
 
 ## Link to Project on Replit
 
